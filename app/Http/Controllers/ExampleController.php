@@ -20,7 +20,7 @@ class ExampleController extends Controller
     }
 
     public function version() {
-        return response()->json(['version' => 'Live 1.2.0']);
+        return response()->json(['version' => 'Live 1.2.0 - memory_limit: 512MB']);
     }
 
     public function login(Request $request) {
