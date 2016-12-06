@@ -20,7 +20,7 @@ class ExampleController extends Controller
     }
 
     public function version() {
-        return '<h1>Phien ban 1.0.2.1.1.1.1.1.1dg sdgsdg sdghksdgh sdjkgh sdhg sdj</h1>';
+        return '<h1>Test auto reload PHP FPM</h1>';
     }
 
     public function login(Request $request) {
