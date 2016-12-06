@@ -1,5 +1,4 @@
 <?php
-
 class TestCase extends Laravel\Lumen\Testing\TestCase
 {
     /**
