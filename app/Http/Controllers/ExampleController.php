@@ -20,7 +20,7 @@ class ExampleController extends Controller
     }
 
     public function version() {
-        return response()->json(['version' => 'Day la phien ban moi 1.0']);
+        return response()->json(['version' => 'Day la phien ban moi 1.0 ----- 2.0']);
     }
 
     public function login(Request $request) {
