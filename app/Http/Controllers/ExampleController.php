@@ -20,7 +20,7 @@ class ExampleController extends Controller
     }
 
     public function version() {
-        return '<h1>Test auto reload PHP FPM</h1>';
+        return '<h1>Test auto reload PHP FPM -- --2222</h1>';
     }
 
     public function login(Request $request) {
