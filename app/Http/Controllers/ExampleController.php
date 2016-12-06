@@ -20,7 +20,7 @@ class ExampleController extends Controller
     }
 
     public function version() {
-        return '<h1>Phien ban 1.0.1</h1>';
+        return '<h1>Phien ban 1.0.2</h1>';
     }
 
     public function login(Request $request) {
