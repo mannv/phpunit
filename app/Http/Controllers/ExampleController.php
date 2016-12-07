@@ -20,7 +20,7 @@ class ExampleController extends Controller
     }
 
     public function version() {
-        return '<h1>Test tu dong tao file .ENV haha</h1>';
+        return '<h1>Test tu dong tao file .ENV <span style=""color: red;>'.env('APP_ENV').'</span></h1>';
     }
 
     public function login(Request $request) {
