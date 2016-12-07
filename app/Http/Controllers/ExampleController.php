@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 
-
 use Illuminate\Http\Request;
 use Mockery\CountValidator\Exception;
 
@@ -19,11 +18,13 @@ class ExampleController extends Controller
         //
     }
 
-    public function version() {
-        return '<h1>Test tu dong tao file .ENV <span style="color: red;">'.env('APP_ENV').'</span></h1>';
+    public function version()
+    {
+        return '<h1>Test tu dong tao file .ENV <span style="color: red;">' . env('APP_ENV') . '</span> ----dgsdgsdg</h1>';
     }
 
-    public function login(Request $request) {
+    public function login(Request $request)
+    {
 //        if(!$request->get('email')) {
 //            throw new Exception('eeee');
 //        }
@@ -31,7 +32,7 @@ class ExampleController extends Controller
             'email' => 'required|email',
             'password' => 'required',
         ]);
-        if($validator->fails()) {
+        if ($validator->fails()) {
             return response()->json(['status' => 0, 'errors' => $validator->errors()]);
         }
 
