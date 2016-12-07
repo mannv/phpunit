@@ -28,7 +28,7 @@ class ExampleTest extends TestCase
 
 
     public function testLoginAction() {
-        $this->post('/login', ['email' => 'anhmantk'])->seeJsonStructure([
+        $this->post('/login', ['email' => 'anhmantk@gmail.com'])->seeJsonStructure([
             'errors' => ['email', 'password']
         ]);
     }
