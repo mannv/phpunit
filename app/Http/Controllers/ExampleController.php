@@ -20,7 +20,7 @@ class ExampleController extends Controller
 
     public function version()
     {
-        return '<h1>Da cai dat push slack thanh cong .ENV <span style="color: red;">' . env('APP_ENV') . '</span> ---- ver 2.31.1</h1>';
+        return '<h1>Develop - Da cai dat push slack thanh cong .ENV <span style="color: red;">' . env('APP_ENV') . '</span> ---- ver 2.31.1</h1>';
     }
 
     public function login(Request $request)
